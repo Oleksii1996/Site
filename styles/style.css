@@ -1,0 +1,37 @@
+body {
+    margin: 1%;
+}
+
+@media screen and (max-width: 720px) {
+    .menu {}
+}
+
+@media screen and (min-width: 721px) {
+
+    .menu {
+        background-color: black;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .menu input {
+        border: none;
+        background-color: black;
+        color: white;
+        font-family: Arial;
+        font-size: large;
+    }
+
+    .menu input:hover {
+        color: orange;
+    }
+
+    .menu input:active, input:focus {
+        outline: none;
+    }
+
+    .container {
+        border: 1px solid black;
+        margin-top: 1%;
+    }
+}
