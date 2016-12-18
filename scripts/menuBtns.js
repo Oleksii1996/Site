@@ -15,7 +15,7 @@
 
     arrBtn[3] = document.createElement("input");
     arrBtn[3].type = "button";
-    arrBtn[3].value = "О нас";
+    arrBtn[3].value = "Контакты";
 
     arrBtn[4] = document.createElement("input");
     arrBtn[4].type = "button";
@@ -33,9 +33,11 @@
             (function(i) {
                 arrBtn[i].addEventListener("click", function() {
                     arrBtn[i].style.borderBottom = "1px solid orange";
+                    document.getElementById("section" + i.toString()).style.display = "block";
                     for (var j = 0; j < arrBtn.length; j++) {
                         if (j != i) {
                             arrBtn[j].style.borderBottom = "none";
+                            document.getElementById("section" + j.toString()).style.display = "none";
                         }
                     }
                 });
