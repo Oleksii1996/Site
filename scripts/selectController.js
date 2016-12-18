@@ -10,7 +10,7 @@
     arrOption[1].label = "Первые блюда";
 
     arrOption[2] = document.createElement("option");
-    arrOption[2].label = "Блюда из мяса";
+    arrOption[2].label = "Мясные блюда";
 
     arrOption[3] = document.createElement("option");
     arrOption[3].label = "Десерты";

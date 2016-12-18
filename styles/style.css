@@ -69,6 +69,24 @@ body {
         font-family: Arial;
     }
 
+    .container .phoneMailBtns {
+        margin: auto;
+        width: 20%;
+        height: 10%;
+    }
+
+    .container .phoneMailBtns div {
+        border: none;
+        background-color: rgba(0,0,0,0);
+        width: 49%;
+        display: inline-block;
+        outline: none;
+    }
+
+    .center {
+        text-align: center;
+    }
+
     .galleryImage {
         display: inline-block;
         width: 22%;

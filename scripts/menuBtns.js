@@ -17,11 +17,6 @@
     arrBtn[3].type = "button";
     arrBtn[3].value = "Контакты";
 
-    arrBtn[4] = document.createElement("input");
-    arrBtn[4].type = "button";
-    arrBtn[4].value = "Помощь";
-    arrBtn[4].style.float = "right";
-
     this.onload = function() {
         var menu = document.getElementById("menu");
 
