@@ -39,5 +39,6 @@
             }
         }
     });
+
     selectContainer.appendChild(select);
 })();
