@@ -151,16 +151,23 @@
         <hr>
 
         <p>
-            Для оформления заказа выберите блюда из меню
-            и свяжитесь с нами по телефонам или почтовым
+            Для оформления заказа заполните форму ниже или 
+            свяжитесь с нами по телефонам или почтовым
             ящикам, указанным в разделе "Контакты".
         </p>
 
         <form action="action.php" method="post">
-            <p>Ваше имя: <input type="text" name="name" /></p>
-            <p> <input type="text" name="age" /></p>
-            <p><input type="submit" /></p>
+            <input type="text" name="name" placeholder="Ваше имя" />
+            <input type="text" name="adress" placeholder="Адресс доставки" />
+            <input type="text" name="telephone" placeholder="Ваш номер телефона" />
+            <br><br>
+
+            <textarea rows="14" placeholder="Напишите Ваш заказ здесь" name="order"></textarea>
+            <input id="submit" type="submit" />
         </form>
+
+        <br><br>
+        <button id="getOrders" class="btn">Посмотреть список оформленых заказов</button>
     </section>
 
     <section id="section3" class="container">
@@ -207,5 +214,6 @@
     <script src="scripts/menuBtns.js"></script>
     <script src="scripts/selectController.js"></script>
     <script src="scripts/contactsBtns.js"></script>
+    <script src="scripts/getOrders.js"></script>
 </body>
 </html>

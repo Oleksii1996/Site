@@ -27,7 +27,42 @@ body {
 }
 
 .container form {
+    margin: auto;
+    width: 50%;
+    text-align: center;
     border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container form p {
+    float: left;
+    padding: 10px;
+}
+
+.container form input {
+    margin-top: 1%;
+    width: 90%;
+    border-width: 0px 0px 1px 0px;
+    border-color: lightgrey;
+    padding: 5px;
+}
+
+.container form textarea {
+    margin: auto; 
+    width: 90%; 
+    resize: none; 
+    outline: none;
+}
+
+.container form #submit {
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
+.container form #submit:hover {
+    color: orange;
 }
 
 .container h1, h2 {
@@ -43,10 +78,18 @@ body {
     text-align: center;
 }
 
-.galleryImage img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+.btn {
+    outline: none;
+    transform: translate(50%);
+    border: none;
+    padding: 10px;
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
+.btn:hover {
+    color: orange;
 }
 
 .container .phoneMailBtns div {
@@ -75,7 +118,18 @@ body {
         max-width: 100%;
         padding: 10px;
         border-radius: 5px;
+    }
+
+    .menu input {
         display: block;
+    }
+
+    .container {
+        border: none;
+        margin-top: 1%;
+        padding: 0;
+        display: none;
+        border-radius: 5px;
     }
 
     .container img {
@@ -91,6 +145,14 @@ body {
         font-family: Arial;
     }
 
+    .container form {
+        width: 100%;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
     .container .phoneMailBtns {
         margin: auto;
         width: 40%;
@@ -98,12 +160,18 @@ body {
     }  
 
     .galleryImage {
-        display: inline-block;
+        display: block;
         width: 100%;
-        margin: 1% 1% 1% 1%;
+        margin: 0;
         border: 1px solid black;
         border-radius: 5px;
         text-align: center;
+    }
+
+    .galleryImage img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
     }
 }
 
@@ -144,5 +212,12 @@ body {
         border: 1px solid black;
         border-radius: 5px;
         text-align: center;
+    }
+
+    .galleryImage img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
     }
 }
