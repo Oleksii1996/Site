@@ -1,0 +1,148 @@
+body {
+    margin: 1%;
+}
+
+.menu input {
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: large;
+}
+
+.menu input:hover {
+    color: orange;
+}
+
+.menu input:active, input:focus {
+    outline: none;
+}
+
+.container {
+    border: 1px solid black;
+    margin-top: 1%;
+    padding: 1%;
+    display: none;
+    border-radius: 5px;
+}
+
+.container form {
+    border: 1px solid black;
+}
+
+.container h1, h2 {
+    text-align: center;
+}
+
+.container .select {
+    outline: none;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.galleryImage img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.container .phoneMailBtns div {
+    border: none;
+    background-color: rgba(0,0,0,0);
+    width: 49%;
+    display: inline-block;
+    outline: none;
+} 
+
+.foot {
+    margin-top: 1%;
+    background-color: black;
+    max-width: 100%;
+    padding: 0.009%;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 720px) {
+    .menu {
+        background-color: black;
+        max-width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        display: block;
+    }
+
+    .container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .container .select select {
+        outline: none;
+        width: 50%;
+        font-size: large;
+        font-family: Arial;
+    }
+
+    .container .phoneMailBtns {
+        margin: auto;
+        width: 40%;
+        height: 10%;
+    }  
+
+    .galleryImage {
+        display: inline-block;
+        width: 100%;
+        margin: 1% 1% 1% 1%;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 721px) {
+
+    .menu {
+        background-color: black;
+        max-width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .container img {
+        width: 40%;
+        height: auto;
+        float: left;
+        margin-right: 1%;
+        border-radius: 5px;
+    }
+
+    .container .select select {
+        outline: none;
+        width: 20%;
+        font-size: large;
+        font-family: Arial;
+    }
+
+    .container .phoneMailBtns {
+        margin: auto;
+        width: 20%;
+        height: 10%;
+    }  
+
+    .galleryImage {
+        display: inline-block;
+        width: 22%;
+        margin: 1% 1% 1% 1%;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+    }
+}
